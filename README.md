@@ -100,6 +100,7 @@ The project uses clear naming and assertions to provide readable and maintainabl
 - **Semester**: Spring 2024/2025
 - **Instructor Requirement**: Use Playwright + TypeScript with POM and grouped test files.
 - **Deadline**: 25 May (Midnight) ⏳
+- **Created by** : Ahmad Irshaid and Waleed Arman
 
 ---
 
