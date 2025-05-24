@@ -14,7 +14,7 @@ test('Remove from cart', async ({ page }) => {
   await page.locator('[data-test="add-to-cart-sauce-labs-bolt-t-shirt"]').click();
   await page.waitForTimeout(1000);
   await page.locator('[data-test="shopping-cart-link"]').click();
-  await page.waitForTimeout(1000);
+  await page.waitForTimeout(3000);
   await page.locator('[data-test="remove-sauce-labs-backpack"]').click();
   await page.waitForTimeout(1000);
   await page.locator('[data-test="remove-sauce-labs-bike-light"]').click();
