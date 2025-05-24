@@ -6,13 +6,25 @@ A modern Playwright + TypeScript test automation project for validating the core
 
 ```
 .
-├── pages/                 # Page Object Models (e.g., LoginPage.ts)
-├── tests/                 # Main test cases per feature
-├── tests-examples/        # Additional or experimental tests
-├── .env                   # Stores test credentials securely
+├── pages/
+│   ├── LoginPage.ts              # Page object for login functionality
+│   ├── CartPage.ts               # Page object for cart operations
+│   ├── CheckoutPage.ts           # Page object for checkout process
+│   └── SortPage.ts               # Page object for sorting tests
+
+├── tests/
+│   ├── login.spec.ts             # Tests for login (valid/invalid)
+│   ├── cart.spec.ts              # Tests for add/remove cart items
+│   ├── checkout.spec.ts          # Tests for checkout flow
+│   ├── sort.spec.ts              # Tests for product sorting
+
+├── tests-examples/               # Optional extra examples or drafts
+
+├── .env                          # Contains credentials like USER_NAME and PASSWORD
 ├── .gitignore
 ├── package.json
-├── playwright.config.ts   # Global Playwright configuration
+├── playwright.config.ts          # Playwright global configuration
+└── README.md                     # Project documentation
 ```
 
 ## ✅ Features Covered
