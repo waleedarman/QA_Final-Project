@@ -10,10 +10,10 @@ test.beforeEach(async ({ page }) => {
 
 test('Checkout test case', async ({ page }) => {
   const checkoutPage = new CheckoutPage(page);
-  await page.waitForTimeout(1000);
+  await page.waitForTimeout(3000);
   await checkoutPage.goToCart();
-  await page.waitForTimeout(1000);
+  await page.waitForTimeout(3000);
   await checkoutPage.checkout('waleed', 'arman', '+972');
-  await page.waitForTimeout(1000);
+  await page.waitForTimeout(3000);
   await checkoutPage.verifyOrderCompletion();
 });
