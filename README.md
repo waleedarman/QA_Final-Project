@@ -119,4 +119,4 @@ The project uses clear naming and assertions to provide readable and maintainabl
 ## 🔗 Author
 
 Developed and maintained by **Ahmad IrSahaid** and **Waleed Arman**.  
-View on GitHub → _[https://github.com/waleedarman/QA_Final-Project.git]_ (Insert your GitHub repository link)
+View on GitHub → _[https://github.com/waleedarman/SauceDemo-E2E-Testing-Playwright.git]_ (Insert your GitHub repository link)
